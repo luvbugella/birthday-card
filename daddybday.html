@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <link rel="stylesheet" href="bday.css">
+  </head>
+  <body>
+    <div class="card" id="birthday-card">
+      <div class="card-link">
+        <!-- button -->
+        <img src="https://blob.gifcities.org/gifcities/4PFYUJUES7W7QAVMEMTBGQ2TJP7QKP5J.gif">
+        <button id="myBtn" class="Btn"><h1>Click to open your present!</h1></button>
+        <img src="https://blob.gifcities.org/gifcities/4PFYUJUES7W7QAVMEMTBGQ2TJP7QKP5J.gif">
+      </div>
+    </div>
+    
+  <!-- modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Happy Birthday!!</h1>
+        <p>Time to surf the waves better than you surf the web!</p>
+        <img src="https://pixelsafari.neocities.org/dividers/ocean.gif">
+        <div id="love"><img src="https://i.picasion.com/gl/93/m66t.gif" width="117" height="36" border="0" alt="glitter maker" /></div>
+        <h2>Ella & Julie</h2>
+      </div>
+      <img src="https://blob.gifcities.org/gifcities/Z3FC743AK4N75RTZSQAYLB7GJFYXB4G7.gif">
+    </div>
+  <!-- javascript -->
+  <script>
+    var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+  </script>
+  </body>
+</html>
