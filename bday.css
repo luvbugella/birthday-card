@@ -70,7 +70,10 @@ body {
   border: none;
   border-radius: 10px;
   width: 70%;
-  min-width: 400px;
+}
+
+.wave {
+  width: 100%
 }
 
 #love {
