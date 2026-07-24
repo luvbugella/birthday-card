@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(183, 238, 235);
+}
+
+.card {
+  background-color: white;
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px gray;
+}
+
+.card-link {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Btn {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  height: min-content;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #01377d;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.Btn:hover {
+  background-color: #97e7f5;
+  transform: scale(1.1)
+}
+
+.Btn:active {
+  background-color: midnightblue;
+}
+
+.Btn:focus {
+  outline: 2px solid yellow;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+  background-image: url("https://blob.gifcities.org/gifcities/SPDNI2PEORYLG7P7BKY5VIM3Z3CFLSSP.gif");
+  background-size: contain;
+}
+/* https://blob.gifcities.org/gifcities/SPDNI2PEORYLG7P7BKY5VIM3Z3CFLSSP.gif */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto 30px auto; /* 15% from the top and centered */
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  min-width: 400px;
+}
+
+#love {
+  margin: 10px auto;
+}
+
+.close {
+  color: #97e7f5;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.close:hover,
+.close:focus,
+.close:active {
+  color: #01377d;
+  text-decoration: none;
+  cursor: pointer;
+}
