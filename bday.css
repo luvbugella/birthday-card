@@ -80,6 +80,10 @@ body {
   margin: 10px auto;
 }
 
+.vlad {
+  max-width: 70%;
+}
+
 .close {
   color: #97e7f5;
   float: right;
